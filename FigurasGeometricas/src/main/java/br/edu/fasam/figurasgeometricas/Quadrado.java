@@ -11,7 +11,8 @@ import java.util.Scanner;
  public class Quadrado {
       
     private double lado;
-    //private double area;   
+    public double area;
+    public double perimetro;
     
     public Quadrado(){
         
@@ -30,9 +31,11 @@ import java.util.Scanner;
     }
     
     public double calcularArea (){
-        return Math.pow(this.getLado(), 2);
+        this.area = Math.pow(this.getLado(), 2);
+        return this.area;
     }
     public double CalcularPerimetro(){
-        return this.getLado() * 4;
+        this.perimetro = this.getLado() * 4;
+        return this.perimetro;
     }
  }
