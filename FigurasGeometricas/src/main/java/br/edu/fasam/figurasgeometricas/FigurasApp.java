@@ -1,8 +1,6 @@
 
 package br.edu.fasam.figurasgeometricas;
 
-
-
 /**
  *
  * @author Administrador

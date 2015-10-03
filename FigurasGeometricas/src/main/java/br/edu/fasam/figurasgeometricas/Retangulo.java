@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author Aluno
  */ 
 public class Retangulo {
-    
+    //construtor
     private Scanner entrada = new Scanner(System.in);
     
     private double area;

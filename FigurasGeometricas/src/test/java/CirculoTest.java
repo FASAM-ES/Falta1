@@ -27,8 +27,11 @@ public class CirculoTest extends TestCase {
         super.tearDown();
     }
 
-   public void testCalcularArea() {
-   Circulo circulo = new Circulo(5);
-   assertEquals(78,(int) circulo.calcularArea());
+    /**
+     *
+     */
+    public void testCalcularArea() {
+   Circulo circulo = new Circulo(10);
+   assertEquals(314,(int) circulo.calcularArea());
    }
 }

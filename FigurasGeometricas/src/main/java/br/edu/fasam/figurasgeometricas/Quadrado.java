@@ -4,32 +4,39 @@
  */
 package br.edu.fasam.figurasgeometricas;
 
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 import java.util.Scanner;
 
 
  public class Quadrado {
+      
+    private double lado;
+    private double area;
+    private double perimetro;
     
-    Scanner entrada = new Scanner(System.in);
-    double lado, area, perimetro;
-    
-    
-    double calcularArea (){
+    public Quadrado(){
         
-        area = lado*lado;
-        
-        return area;
     }
-     double calcularPerimetro (){
-        
-        perimetro = 4*lado;
-        
-        return perimetro;
+
+    public Quadrado(double lado) {
+        this.lado = lado;
     }
-     
-    void imprimir(){
-        
-        System.out.println("O quadrado de lado: "
-                +lado+"\n Área: "+calcularArea()
-                +"\nPerimetro: "+calcularPerimetro());
+    
+     public double getLado() {
+        return lado;
+    }
+
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
+    
+    public double calcularArea (){
+        this.area = Math.pow(this.getLado(), 2);
+        return this.area;
+    }
+    
+    public double CalcularPerimetro(){
+        this.perimetro = this.getLado() * 4;
+        return this.perimetro;
     }
  }
