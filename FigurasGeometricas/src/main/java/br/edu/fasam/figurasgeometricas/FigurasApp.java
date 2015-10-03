@@ -10,3 +10,4 @@ public class FigurasApp {
         System.out.println("Olá Mundo!");
     }
 }
+
