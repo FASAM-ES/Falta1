@@ -14,8 +14,12 @@ public class Circulo  {
 
     Scanner entrada = new Scanner(System.in);
     double raio, area, perimetro;
+
+    public Circulo(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
         
-    double calcularArea (){
+    public double calcularArea (){
         
         area = 3.141516*raio*raio;
         
