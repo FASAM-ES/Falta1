@@ -4,13 +4,42 @@
  * and open the template in the editor.
  */
 package br.edu.fasam.figurasgeometricas;
+import java.util.Scanner;
 
 /**
  *
  * @author Administrador
  */
 public class Circulo  {
-    public static void main(String[] args) {
-        System.out.println("Olá Mundo!");
+
+    Scanner entrada = new Scanner(System.in);
+    double raio, area, perimetro;
+        
+    double calcularArea (){
+        
+        area = 3.141516*raio*raio;
+        
+        return area;
     }
+     double calcularPerimetro (){
+        
+        perimetro = 2*3.141516*raio;
+        
+        return perimetro;
+    }
+    
+ void imprimir(){
+        
+        System.out.println("O círculo de raio: "
+                +raio+"\nÁrea: "+calcularArea()
+                +"\nPerimetro: "+calcularPerimetro());
+    }
+    
+    void construtor(){
+        
+        System.out.println("Informe do valor do raio do círculo");
+        raio = entrada.nextDouble();
+       
+    }
+    
 }
