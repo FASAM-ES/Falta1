@@ -7,9 +7,9 @@ package br.edu.fasam.figurasgeometricas;
 import java.util.Scanner;
 
 /**
- *
+ *Deivid
  * @author Aluno
- */
+ */ 
 public class Retangulo {
     
     private Scanner entrada = new Scanner(System.in);
