@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Administrador
+ * @author Fausto
  */
 public class Circulo  {
 
