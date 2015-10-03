@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package br.edu.fasam.figurasgeometricas;
-import java.util.Scanner;
 
 /**
  *
