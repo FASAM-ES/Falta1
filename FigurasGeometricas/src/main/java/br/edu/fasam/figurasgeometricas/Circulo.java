@@ -16,7 +16,7 @@ public class Circulo  {
     double raio, area, perimetro;
 
     public Circulo(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       this.raio = i;
     }
         
     public double calcularArea (){

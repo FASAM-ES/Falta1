@@ -29,6 +29,6 @@ public class CirculoTest extends TestCase {
 
    public void testCalcularArea() {
    Circulo circulo = new Circulo(4);
-   assertEquals(16,(int) circulo.calcularArea());
+   assertEquals(50,(int) circulo.calcularArea());
    }
 }
