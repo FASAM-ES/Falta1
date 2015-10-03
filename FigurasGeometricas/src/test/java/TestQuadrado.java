@@ -26,8 +26,9 @@ public class TestQuadrado extends TestCase {
         super.tearDown();
     }
     public void testAreaQuadrado(){
-        Quadrado quad = new Quadrado(0);
-        assertEquals(0, (int)quad.calcularArea());
+        Quadrado quad = new Quadrado(4);
+        assertEquals(16, (int)quad.calcularArea());
+        
     }
      
     // TODO add test methods here. The name must begin with 'test'. For example:
