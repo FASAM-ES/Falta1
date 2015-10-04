@@ -12,7 +12,10 @@ import java.util.Scanner;
  */
 public class Circulo  {
 
-    double raio, area, perimetro;
+    private double raio;
+    private double area;
+    private double perimetro;
+    
     //Ola mundo
     public Circulo(){
         
