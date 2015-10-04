@@ -25,12 +25,11 @@ public class Circulo  {
     }
         
     public double calcularArea (){
-        
-        this.area = 3.141516*raio*raio;
+        this.area = 3.141516 * this.raio * this.raio;
         return this.area;
     }
+    
      double calcularPerimetro (){
-        
         this.perimetro = 2*3.141516*this.raio;
         return this.perimetro;
     }  
