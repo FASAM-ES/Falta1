@@ -4,6 +4,7 @@
  */
 
 import br.edu.fasam.figurasgeometricas.Quadrado;
+import static junit.framework.Assert.assertEquals;
 import junit.framework.TestCase;
 
 /**
@@ -28,6 +29,9 @@ public class TestQuadrado extends TestCase {
     public void testAreaQuadrado(){
         Quadrado quad = new Quadrado(4);
         assertEquals(16, (int)quad.calcularArea());
+        
+        Quadrado quad1 = new Quadrado(0);
+        assertEquals(0, (int)quad1.calcularArea());
     }
     
     public void testPerimetroQuadrado(){
