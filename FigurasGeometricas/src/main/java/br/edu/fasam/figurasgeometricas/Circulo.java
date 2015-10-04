@@ -12,9 +12,11 @@ import java.util.Scanner;
  */
 public class Circulo  {
 
-    Scanner entrada = new Scanner(System.in);
     double raio, area, perimetro;
     //Ola mundo
+    public Circulo(){
+        
+    }
     public Circulo(int i) {
        this.raio = i;
     }
@@ -30,20 +32,5 @@ public class Circulo  {
         perimetro = 2*3.141516*raio;
         
         return perimetro;
-    }
-    
- void imprimir(){
-        
-        System.out.println("O círculo de raio: "
-                +raio+"\nÁrea: "+calcularArea()
-                +"\nPerimetro: "+calcularPerimetro());
-    }
-    
-    void construtor(){
-        
-        System.out.println("Informe do valor do raio do círculo");
-        raio = entrada.nextDouble();
-       
-    }
-    
+    }  
 }
