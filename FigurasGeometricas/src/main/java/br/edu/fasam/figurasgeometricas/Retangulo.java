@@ -19,6 +19,14 @@ public class Retangulo {
     private double lado;
     private double comprimento;
     private double largura;
+    
+    public Retangulo(){
+        
+    }
+    
+    public Retangulo(double lado){
+        this.lado = lado;
+    }
         
     double calculoArea(){        
         area = comprimento * largura;
@@ -27,23 +35,6 @@ public class Retangulo {
     double calculoPerimetro(){
         perimetro = (2 * comprimento) + (2 * largura);
         return perimetro;
-    }
-    void imprimir (){
-        System.out.println("Area do Retângulo: " + calculoArea() +"\nPeritetro do Retângulo: " + calculoPerimetro());
-    }
-    void construtor (){
-        System.out.println("Comprimento = ");
-        comprimento = entrada.nextDouble();
-        System.out.println("Largura = ");
-        largura = entrada.nextDouble();
-    }
-
-    public Scanner getEntrada() {
-        return entrada;
-    }
-
-    public void setEntrada(Scanner entrada) {
-        this.entrada = entrada;
     }
 
     public double getArea() {
@@ -84,14 +75,5 @@ public class Retangulo {
 
     public void setLargura(double largura) {
         this.largura = largura;
-    }
-
-    void getCalculoArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    void getConstrutor() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+    }   
 }
