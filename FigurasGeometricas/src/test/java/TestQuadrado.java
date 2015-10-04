@@ -28,7 +28,11 @@ public class TestQuadrado extends TestCase {
     public void testAreaQuadrado(){
         Quadrado quad = new Quadrado(4);
         assertEquals(16, (int)quad.calcularArea());
-        
+    }
+    
+    public void testPerimetroQuadrado(){
+        Quadrado quad = new Quadrado(5);
+        assertEquals(20, (int)quad.CalcularPerimetro());
     }
      
     // TODO add test methods here. The name must begin with 'test'. For example:
