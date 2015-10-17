@@ -33,7 +33,6 @@
         <scope>test</scope>
             </dependency>
 </dependencies>
-</project>
 <build>
 		<plugins>
 			<plugin>
@@ -62,3 +61,5 @@
 			</plugin>
 		</plugins>
 	</reporting>
+
+</project>
